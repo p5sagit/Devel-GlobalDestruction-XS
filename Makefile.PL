@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 
-require 5.008001;
+require 5.006;
 
 use ExtUtils::MakeMaker;
 
@@ -19,7 +19,7 @@ my %WriteMakefileArgs = (
   LICENSE             => 'perl',
   INSTALLDIRS         => 'site',
   PL_FILES            => { },
-  MIN_PERL_VERSION    => '5.008001',
+  MIN_PERL_VERSION    => '5.006',
   PREREQ_PM           => \%RUN_DEPS,
   CONFIGURE_REQUIRES  => { 'ExtUtils::CBuilder' => 0.27 },
   META_ADD => {
