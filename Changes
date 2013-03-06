@@ -1,2 +1,3 @@
-0.01
-  * Extracted XS code from Devel-GlobalDestruction
+0.00_01
+
+  * Extracted XS code from Devel-GlobalDestruction to keep FatPacker happy

@@ -28,6 +28,7 @@ my %WriteMakefileArgs = (
       bugtracker => 'http://rt.cpan.org/Public/Dist/Display.html?Name=Devel-GlobalDestruction-XS',
     },
     requires => \%RUN_DEPS,
+    dynamic_config => 0,
   },
   ($mymeta and !$mymeta_works) ? ( 'NO_MYMETA' => 1 ) : (),
 );
