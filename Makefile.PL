@@ -15,7 +15,9 @@ my %RUN_DEPS = (
 
 my %WriteMakefileArgs = (
   NAME                => 'Devel::GlobalDestruction::XS',
+  AUTHOR              => 'Yuval Kogman <nothingmuch@woobling.org>',
   VERSION_FROM        => 'lib/Devel/GlobalDestruction/XS.pm',
+  ABSTRACT_FROM       => 'lib/Devel/GlobalDestruction/XS.pm',
   LICENSE             => 'perl',
   INSTALLDIRS         => 'site',
   PL_FILES            => { },

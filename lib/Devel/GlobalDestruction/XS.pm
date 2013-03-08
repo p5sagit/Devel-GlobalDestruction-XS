@@ -37,12 +37,16 @@ Arthur Axel 'fREW' Schmidt E<lt>frioux@gmail.comE<gt>
 
 Elizabeth Mattijsen E<lt>liz@dijkmat.nlE<gt>
 
-Greham Knop E<lt>haarg@haarg.orgE<gt>
+Graham Knop E<lt>haarg@haarg.orgE<gt>
 
 =head1 COPYRIGHT
 
-    Copyright (c) 2008 Yuval Kogman. All rights reserved
-    This program is free software; you can redistribute
-    it and/or modify it under the same terms as Perl itself.
+Copyright (c) 2008 - 2013 the Devel::GlobalDestruction::XS L</AUTHORS> as listed
+above.
+
+=head1 LICENSE
+
+This library is free software and may be distributed under the same terms
+as perl itself.
 
 =cut
