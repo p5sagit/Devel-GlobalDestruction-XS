@@ -23,7 +23,6 @@ my %WriteMakefileArgs = (
   PL_FILES            => { },
   MIN_PERL_VERSION    => '5.006',
   PREREQ_PM           => \%RUN_DEPS,
-  CONFIGURE_REQUIRES  => { 'ExtUtils::CBuilder' => 0.27 },
   META_ADD => {
     resources => {
       repository => 'git://git.shadowcat.co.uk/p5sagit/Devel-GlobalDestruction-XS.git',
