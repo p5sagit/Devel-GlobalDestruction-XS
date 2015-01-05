@@ -1,2 +1,4 @@
+Revision history for Devel-GlobalDestruction-XS
+
 0.01  2013-03-08 13:48 (UTC)
   * Extracted XS code from Devel-GlobalDestruction to keep FatPacker happy
