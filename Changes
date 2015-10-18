@@ -1,5 +1,6 @@
 Revision history for Devel-GlobalDestruction-XS
 
+0.02 - 2015-10-18
   - update metadata to include IRC and repository web link
   - remove unneeded prerequisite on ExtUtils::CBuilder
 
