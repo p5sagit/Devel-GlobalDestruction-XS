@@ -29,6 +29,7 @@ my %WriteMakefileArgs = (
         web => 'https://rt.cpan.org/Public/Dist/Display.html?Name=Devel-GlobalDestruction-XS',
         mailto => 'bug-Devel-GlobalDestruction-XS@rt.cpan.org',
       },
+      x_IRC => 'irc://irc.perl.org/#toolchain',
       license => [ 'http://dev.perl.org/licenses/' ],
     },
     requires => { },
