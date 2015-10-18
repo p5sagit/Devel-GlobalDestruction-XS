@@ -1,4 +1,7 @@
 Revision history for Devel-GlobalDestruction-XS
 
+  - update metadata to include IRC and repository web link
+  - remove unneeded prerequisite on ExtUtils::CBuilder
+
 0.01  2013-03-08 13:48 (UTC)
   * Extracted XS code from Devel-GlobalDestruction to keep FatPacker happy
