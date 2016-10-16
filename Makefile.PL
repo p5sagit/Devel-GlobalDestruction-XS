@@ -1,9 +1,6 @@
 use strict;
 use warnings FATAL => 'all';
 use 5.006;
-use ExtUtils::MakeMaker;
-
-(do 'maint/Makefile.PL.include' or die $@) unless -f 'META.yml';
 
 my %META = (
   name => 'Devel-GlobalDestruction-XS',
@@ -30,7 +27,7 @@ my %MM_ARGS = ();
 
 ## BOILERPLATE ###############################################################
 require ExtUtils::MakeMaker;
-(do 'maint/Makefile.PL.include' or die $@) unless -f 'META.yml';
+(do './maint/Makefile.PL.include' or die $@) unless -f 'META.yml';
 
 # have to do this since old EUMM dev releases miss the eval $VERSION line
 my $eumm_version  = eval $ExtUtils::MakeMaker::VERSION;
