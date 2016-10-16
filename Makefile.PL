@@ -12,8 +12,9 @@ my %META = (
   prereqs => {},
   resources => {
     repository => {
-      url => 'git://git.shadowcat.co.uk/p5sagit/Devel-GlobalDestruction-XS.git',
-      web => 'http://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=p5sagit/Devel-GlobalDestruction-XS.git',
+      url => 'git://github.com/p5sagit/Devel-GlobalDestruction-XS.git',
+      # git://git.shadowcat.co.uk/p5sagit/Devel-GlobalDestruction-XS.git
+      web => 'http://github.com/p5sagit/Devel-GlobalDestruction-XS',
       type => 'git',
     },
     bugtracker => {
