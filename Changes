@@ -1,5 +1,6 @@
 Revision history for Devel-GlobalDestruction-XS
 
+0.03 - 2016-10-31
   - stop relying on . being in @INC
 
 0.02 - 2015-10-18
