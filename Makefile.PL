@@ -6,7 +6,13 @@ my %META = (
   name => 'Devel-GlobalDestruction-XS',
   license => 'perl_5',
   dynamic_config => 0,
-  prereqs => {},
+  prereqs => {
+    develop => {
+      requires => {
+        'Test::Pod' => 0,
+      },
+    },
+  },
   resources => {
     repository => {
       url => 'git://github.com/p5sagit/Devel-GlobalDestruction-XS.git',
