@@ -7,6 +7,11 @@ my %META = (
   license => 'perl_5',
   dynamic_config => 0,
   prereqs => {
+    runtime => {
+      requires => {
+        perl => '5.006',
+      },
+    },
     develop => {
       requires => {
         'Test::Pod' => 0,
